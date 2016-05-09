@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<premis:premis xmlns:premis="http://www.loc.gov/premis/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/premis/v3 http://www.loc.gov/standards/premis/premis-3-0-draft.xsd"
+    version="3.0">
+    
+    <!--this template represents the recommended PREMIS event structure for the data gathered via 2015-16 Artbase Audit. The event can then be associated with the object record for an archived artwork in the Artbase.-->
+    
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+        <premis:objectIdentifierType></premis:objectIdentifierType>
+        <premis:objectIdentifierValue></premis:objectIdentifierValue>
+    </premis:objectIdentifier></premis:object>
+    
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType> local </premis:eventIdentifierType>
+            <premis:eventIdentifierValue> Artwork Audit </premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType> validation </premis:eventType>
+        <premis:eventDateTime> 20150911/20160527 </premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail> Artworks were evaluated in the course of a nine-month NDS-NYC
+                residency </premis:eventDetail>
+        </premis:eventDetailInformation>
+        <premis:eventOutcomeInformation>
+            <premis:eventOutcome>
+                <!--put Stoplight Assessment here!!!-->
+                <!--controlled vocab values: red, yellow, green, none; or map Stoplight Values to an authority vocabulary-->
+            </premis:eventOutcome>
+            <premis:eventOutcomeDetail>
+                <premis:eventOutcomeDetailNote>
+                    <!--audit information is in eventOutcomeDetailExtension as significantProperties for this artwork-->
+                </premis:eventOutcomeDetailNote>
+                <premis:eventOutcomeDetailExtension>
+                    <!--put all of the audit values for this artwork here-->
+                    <premis:significantProperties>
+                        <premis:significantPropertiesType> risk from external links </premis:significantPropertiesType>
+                        <premis:significantPropertiesValue>
+                            <!--controlled vocabulary values: low, medium, high-->
+                            <!--add wikibase item ID/values here -->
+                        </premis:significantPropertiesValue>
+                    </premis:significantProperties>
+                    <premis:significantProperties>
+                        <premis:significantPropertiesType> internal resources completeness </premis:significantPropertiesType>
+                        <premis:significantPropertiesValue>
+                            <!--controlled vocabulary values: complete, cannot be determined, broken, n/a-->
+                            <!--add wikibase item ID/values here -->
+                        </premis:significantPropertiesValue>
+                    </premis:significantProperties>
+                    <premis:significantProperties>
+                        <premis:significantPropertiesType> internal resources importance </premis:significantPropertiesType>
+                        <premis:significantPropertiesValue>
+                            <!--controlled vocabulary values: essential, moderate, not important, n/a-->
+                            <!--add wikibase item ID/values here -->
+                        </premis:significantPropertiesValue>
+                    </premis:significantProperties>
+                    <premis:significantProperties>
+                        <premis:significantPropertiesType> external media completeness </premis:significantPropertiesType>
+                        <premis:significantPropertiesValue>
+                            <!--controlled vocabulary values: complete, cannot be determined, broken, n/a-->
+                            <!--add wikibase item ID/values here -->
+                        </premis:significantPropertiesValue>
+                    </premis:significantProperties>
+
+                    <premis:significantProperties>
+                        <premis:significantPropertiesType> external media importance </premis:significantPropertiesType>
+                        <premis:significantPropertiesValue>
+                            <!--controlled vocabulary values: essential, moderate, not important, n/a-->
+                            <!--add wikibase item ID/values here -->
+                        </premis:significantPropertiesValue>
+                    </premis:significantProperties>
+
+                    <premis:significantProperties>
+                        <premis:significantPropertiesType> external data services completeness </premis:significantPropertiesType>
+                        <premis:significantPropertiesValue>
+                            <!--controlled vocabulary values: complete, cannot be determined, broken, n/a-->
+                            <!--add wikibase item ID/values here -->
+                        </premis:significantPropertiesValue>
+                    </premis:significantProperties>
+                    <premis:significantProperties>
+                        <premis:significantPropertiesType> external data services importance </premis:significantPropertiesType>
+                        <premis:significantPropertiesValue>
+                            <!--controlled vocabulary values: essential, moderate, not important, n/a-->
+                            <!--add wikibase item ID/values here -->
+                        </premis:significantPropertiesValue>
+
+                    </premis:significantProperties>
+                    <premis:significantProperties>
+                        <premis:significantPropertiesType> Internet-based Artwork vs. Documentation </premis:significantPropertiesType>
+                        <premis:significantPropertiesValue>
+                            <!--controlled vocabulary values: "Not web", webrecording-->
+                            <!--add wikibase item ID/values here -->
+                        </premis:significantPropertiesValue>
+                    </premis:significantProperties>
+                    <premis:significantProperties>
+                        <premis:significantPropertiesType> browser plug-in completeness </premis:significantPropertiesType>
+                        <premis:significantPropertiesValue>
+                            <!--controlled vocabulary values: complete, cannot be determined, broken, n/a-->
+                            <!--add wikibase item ID/values here -->
+                        </premis:significantPropertiesValue>
+                    </premis:significantProperties>
+
+                    <premis:significantProperties>
+                        <premis:significantPropertiesType> browser plug-in importance </premis:significantPropertiesType>
+                        <premis:significantPropertiesValue>
+                            <!--controlled vocabulary values: essential, moderate, not important, n/a-->
+                            <!--add wikibase item ID/values here -->
+                        </premis:significantPropertiesValue>
+                    </premis:significantProperties>
+                </premis:eventOutcomeDetailExtension>
+            </premis:eventOutcomeDetail>
+        </premis:eventOutcomeInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType> local </premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>
+                <!-- same as objectIdentifierValue (above) for this record: need example Wikibase ID: Q####-->
+            </premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+
+</premis:premis>
