@@ -149,7 +149,7 @@
             Firefox/"No Browser Plug-ins"
         </premis:environmentName>
         <premis:environmentVersion>
-            <!--list FF version used here-->
+            <!--Artworks were tested in Mozilla Firefox 42.0 running in OS 10.10.5-->
         </premis:environmentVersion>
         <premis:environmentOrigin>
             Mozilla
@@ -159,7 +159,6 @@
     <premis:environmentExtension>
         <premis:relatedEnvironmentCharacteristic>
             known to work
-            <!--maybe put an explanation of audit process RE: plug-ins here-->
         </premis:relatedEnvironmentCharacteristic>
     </premis:environmentExtension>
 </premis:object>    

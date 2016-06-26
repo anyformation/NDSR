@@ -65,20 +65,20 @@
             <premis:eventOutcome>
                 <!--put Stoplight Assessment here!!!-->
                 <!--controlled vocab values: red, yellow, green, none; or map Stoplight Values to an authority vocabulary-->
+                <!--wikibase IDs: Q4941	Red (stoplight value); Q4942 Yellow (stoplight value); Q4943 Green (stoplight value); Q4944 No Stoplight (stoplight value)-->
             </premis:eventOutcome>
             <premis:eventOutcomeDetail>
                 <premis:eventOutcomeDetailNote>    
-                    <!--audit information is in eventOutcomeDetailExtension as significantProperties for this artwork-->
+                    <!--audit data for this artwork goes in the eventOutcomeDetailExtension, within significantPropertiesValue fields-->
                 </premis:eventOutcomeDetailNote>
                 <premis:eventOutcomeDetailExtension>
-                    <!--put all of the audit values for this artwork here-->
                     <premis:significantProperties>
-                        <premis:significantPropertiesType>
+                        <premis:significantPropertiesType>	
                             risk from external links 
                         </premis:significantPropertiesType>
                         <premis:significantPropertiesValue>
                             <!--controlled vocabulary values: low, medium, high-->
-                            <!--add wikibase item ID/values here -->
+                            <!--wikibase item IDs: Q4905 high risk (external links); Q4906 moderate risk (external links); Q4907	low risk (external links)-->
                         </premis:significantPropertiesValue>
                     </premis:significantProperties>
                     <premis:significantProperties>
@@ -87,7 +87,7 @@
                         </premis:significantPropertiesType>
                         <premis:significantPropertiesValue>
                             <!--controlled vocabulary values: complete, cannot be determined, broken, n/a-->
-                            <!--add wikibase item ID/values here -->
+                            <!--wikibase item IDs: Q4920 essential (internal resources); Q4921 somewhat important (internal resources); Q4922 not important (internal resources); Q4923	does not apply:importance (internal resources)-->
                         </premis:significantPropertiesValue>
                     </premis:significantProperties>
                     <premis:significantProperties>
@@ -96,7 +96,7 @@
                         </premis:significantPropertiesType>
                         <premis:significantPropertiesValue>
                             <!--controlled vocabulary values: essential, moderate, not important, n/a-->
-                            <!--add wikibase item ID/values here -->
+							<!--wikibase item IDs: Q4920 essential (internal resources); Q4921 somewhat important (internal resources); Q4922 not important (internal resources); Q4923 does not apply:importance (internal resources) -->
                         </premis:significantPropertiesValue>
                     </premis:significantProperties>
                     <premis:significantProperties>
@@ -105,7 +105,7 @@
                         </premis:significantPropertiesType>
                         <premis:significantPropertiesValue>
                             <!--controlled vocabulary values: complete, cannot be determined, broken, n/a-->
-                            <!--add wikibase item ID/values here -->
+                            <!--wikibase item IDs: Q4912 complete (external media); Q4913 broken (external media); Q4914	unknown (external media); Q4915 does not apply:completeness (external media)-->
                         </premis:significantPropertiesValue>
                     </premis:significantProperties>
 
@@ -115,7 +115,7 @@
                         </premis:significantPropertiesType>
                         <premis:significantPropertiesValue>
                             <!--controlled vocabulary values: essential, moderate, not important, n/a-->
-                            <!--add wikibase item ID/values here -->                            
+                        	<!--wikibase item IDs: Q4924 essential (external media); Q4925	somewhat important (external media); Q4926 not important (external media); Q4927 does not apply:importance (external media) -->                            
                         </premis:significantPropertiesValue>
                     </premis:significantProperties>
 
@@ -125,7 +125,7 @@
                         </premis:significantPropertiesType>
                         <premis:significantPropertiesValue>
                             <!--controlled vocabulary values: complete, cannot be determined, broken, n/a-->
-                            <!--add wikibase item ID/values here -->                            
+                            <!--wikibase item IDs: Q4916 complete (external services); Q4917 broken (external services); Q4918 unknown (external services); Q4919 does not apply:completeness (external services)-->                            
                         </premis:significantPropertiesValue>
                     </premis:significantProperties>
                     <premis:significantProperties>
@@ -134,7 +134,7 @@
                         </premis:significantPropertiesType>
                         <premis:significantPropertiesValue>
                             <!--controlled vocabulary values: essential, moderate, not important, n/a-->
-                            <!--add wikibase item ID/values here -->                            
+                        	<!--wikibase item IDs: Q4928 essential (external services); Q4929 somewhat important (external services); Q4930 not important (external services); Q4931 does not apply:importance (external services)-->                            
                         </premis:significantPropertiesValue>
 
                     </premis:significantProperties>
@@ -153,7 +153,7 @@
                      </premis:significantPropertiesType>
                         <premis:significantPropertiesValue> 
                             <!--controlled vocabulary values: complete, cannot be determined, broken, n/a-->
-                            <!--add wikibase item ID/values here -->                            
+							<!--wikibase item IDs: Q4932 complete (browser plug-ins); Q4933	broken (browser plug-ins); Q4934	unknown (browser plug-ins); Q4935 does not apply:completeness (browser plug-ins) -->                            
                         </premis:significantPropertiesValue>
                     </premis:significantProperties>
 
@@ -163,7 +163,7 @@
                         </premis:significantPropertiesType>
                         <premis:significantPropertiesValue> 
                             <!--controlled vocabulary values: essential, moderate, not important, n/a-->
-                            <!--add wikibase item ID/values here -->                            
+                            <!--wikibase item IDs: Q4936 essential (browser plug-ins); Q4937 somewhat important (browser plug-ins); Q4938 not important (browser plug-ins); Q4939 does not apply:importance (browser plug-ins)-->                            
                         </premis:significantPropertiesValue>
                     </premis:significantProperties>
                 </premis:eventOutcomeDetailExtension>
