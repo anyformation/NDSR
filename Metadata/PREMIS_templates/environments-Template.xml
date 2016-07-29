@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<premis:premis xmlns:premis="http://www.loc.gov/premis/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/premis/v3 http://www.loc.gov/standards/premis/premis-3-0-draft.xsd"
+    version="3.0">
+
+<!--this template collects together object entities containing environments representing browser plug-ins necessary for rendering some artworks, as noted during the audit. In the final templates, these object entities should each be separated into individual templates; they are grouped together here only for convenience and keeping everything together.-->
+    
+<premis:object xsi:type="premis:intellectualEntity">
+    <premis:objectIdentifier>
+        <premis:objectIdentifierType>local</premis:objectIdentifierType>
+        <premis:objectIdentifierValue>Q4901</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+    <premis:environmentFunction>
+        <premis:environmentFunctionType authority="environmentFunctionType" authorityURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType.html" valueURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType/sof.html">software</premis:environmentFunctionType>
+        <premis:environmentFunctionLevel>1</premis:environmentFunctionLevel>
+    </premis:environmentFunction>
+    <premis:environmentFunction>
+        <premis:environmentFunctionType authority="environmentFunctionType" authorityURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType.html" valueURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType/soa.html">plugin</premis:environmentFunctionType>
+        <premis:environmentFunctionLevel>2</premis:environmentFunctionLevel>
+    </premis:environmentFunction>
+    <premis:environmentDesignation>
+        <premis:environmentName>Java applets</premis:environmentName>
+        <premis:environmentVersion>
+            <!--in the 2015-16 audit, we used this element to identify and group artworks containing files from all Java versions represented in the Artbase-->
+        </premis:environmentVersion>
+        <premis:environmentDesignationNote/>
+    </premis:environmentDesignation>
+    <premis:environmentRegistry>
+        <premis:environmentRegistryName>PRONOM</premis:environmentRegistryName>
+        <premis:environmentRegistryKey>
+        <!--in the 2015-16 audit, we included files with PRONOM IDs: x-fmt/412; x-fmt/415; x-fmt/422; x-fmt/160 -->
+        </premis:environmentRegistryKey>
+        <premis:environmentRegistryRole>
+            identification
+        </premis:environmentRegistryRole>
+    </premis:environmentRegistry>
+</premis:object>
+
+<premis:object xsi:type="premis:intellectualEntity">
+    <premis:objectIdentifier>
+        <premis:objectIdentifierType>local</premis:objectIdentifierType>
+        <premis:objectIdentifierValue>Q4902</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+    <premis:environmentFunction>
+        <premis:environmentFunctionType authority="environmentFunctionType" authorityURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType.html" valueURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType/sof.html">software</premis:environmentFunctionType>
+        <premis:environmentFunctionLevel>1</premis:environmentFunctionLevel>
+    </premis:environmentFunction>
+    <premis:environmentFunction>
+        <premis:environmentFunctionType authority="environmentFunctionType" authorityURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType.html" valueURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType/soa.html">plugin</premis:environmentFunctionType>
+        <premis:environmentFunctionLevel>2</premis:environmentFunctionLevel>
+    </premis:environmentFunction>
+    <premis:environmentDesignation>
+        <premis:environmentName>Adobe Flash</premis:environmentName>
+        <premis:environmentVersion>
+            <!--in the 2015-16 audit, we used this element to identify artworks containing files from all Flash versions represented in the Artbase-->
+        </premis:environmentVersion>
+        <premis:environmentDesignationNote/>
+    </premis:environmentDesignation>
+    <premis:environmentRegistry>
+        <premis:environmentRegistryName>PRONOM</premis:environmentRegistryName>
+        <premis:environmentRegistryKey>
+	<!--in the 2015-16 audit, we included files with PRONOM IDs: fmt/506; fmt/505; fmt/110; fmt/106; fmt/107; fmt/104; fmt/105; fmt/108; fmt/109; x-fmt/382 -->   
+	</premis:environmentRegistryKey>
+        <premis:environmentRegistryRole>
+            identification
+        </premis:environmentRegistryRole>
+    </premis:environmentRegistry>
+</premis:object>
+
+<premis:object xsi:type="premis:intellectualEntity">
+    <premis:objectIdentifier>
+        <premis:objectIdentifierType>local</premis:objectIdentifierType>
+        <premis:objectIdentifierValue>Q4903</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+    <premis:environmentFunction>
+        <premis:environmentFunctionType authority="environmentFunctionType" authorityURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType.html" valueURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType/sof.html">software</premis:environmentFunctionType>
+        <premis:environmentFunctionLevel>1</premis:environmentFunctionLevel>
+    </premis:environmentFunction>
+    <premis:environmentFunction>
+        <premis:environmentFunctionType authority="environmentFunctionType" authorityURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType.html" valueURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType/soa.html">plugin</premis:environmentFunctionType>
+        <premis:environmentFunctionLevel>2</premis:environmentFunctionLevel>
+    </premis:environmentFunction>
+    <premis:environmentDesignation>
+        <premis:environmentName>Macromedia/Adobe Director</premis:environmentName>
+        <premis:environmentVersion>
+            <!--in the 2015-16 audit, we used this element to identify artworks containing files from all Director versions represented in the Artbase-->
+        </premis:environmentVersion>
+        <premis:environmentDesignationNote/>
+    </premis:environmentDesignation>
+    <premis:environmentRegistry>
+        <premis:environmentRegistryName>PRONOM</premis:environmentRegistryName>
+        <premis:environmentRegistryKey>
+            <!--in the 2015-16 audit, we included files with PRONOM IDs: fmt/486; fmt/317; x-fmt/341-->
+        </premis:environmentRegistryKey>
+        <premis:environmentRegistryRole>
+            identification
+        </premis:environmentRegistryRole>
+    </premis:environmentRegistry>
+</premis:object>
+
+<premis:object xsi:type="premis:intellectualEntity">
+    <premis:objectIdentifier>
+        <premis:objectIdentifierType>local</premis:objectIdentifierType>
+        <premis:objectIdentifierValue>Q4904</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+    <premis:environmentFunction>
+        <premis:environmentFunctionType authority="environmentFunctionType" authorityURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType.html" valueURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType/sof.html">software</premis:environmentFunctionType>
+        <premis:environmentFunctionLevel>1</premis:environmentFunctionLevel>
+    </premis:environmentFunction>
+    <premis:environmentFunction>
+        <premis:environmentFunctionType authority="environmentFunctionType" authorityURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType.html" valueURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType/soa.html">plugin</premis:environmentFunctionType>
+        <premis:environmentFunctionLevel>2</premis:environmentFunctionLevel>
+    </premis:environmentFunction>
+    <premis:environmentDesignation>
+        <premis:environmentName>Quicktime</premis:environmentName>
+        <premis:environmentVersion>
+            <!-- add all versions of Quicktime here               -->
+        </premis:environmentVersion>
+        <premis:environmentDesignationNote/>
+    </premis:environmentDesignation>
+    <premis:environmentRegistry>
+        <premis:environmentRegistryName>PRONOM</premis:environmentRegistryName>
+        <premis:environmentRegistryKey>
+            <!--add PRONOM keys here from SIEGFRIED scans-->
+        </premis:environmentRegistryKey>
+        <premis:environmentRegistryRole>
+            identification
+        </premis:environmentRegistryRole>
+    </premis:environmentRegistry>
+</premis:object>
+
+<premis:object xsi:type="premis:intellectualEntity">
+    <premis:objectIdentifier>
+        <premis:objectIdentifierType>local</premis:objectIdentifierType>
+        <premis:objectIdentifierValue>Q4895</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+    <premis:environmentFunction>
+        <premis:environmentFunctionType authority="environmentFunctionType" authorityURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType.html" valueURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType/sof.html">software</premis:environmentFunctionType>
+        <premis:environmentFunctionLevel>1</premis:environmentFunctionLevel>
+    </premis:environmentFunction>
+    <premis:environmentFunction>
+        <premis:environmentFunctionType authority="environmentFunctionType" authorityURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType.html" valueURI="http://id.loc.gov/vocabulary/preservation/environmentFunctionType/soa.html">software application</premis:environmentFunctionType>
+        <premis:environmentFunctionLevel>2</premis:environmentFunctionLevel>
+    </premis:environmentFunction>      
+    <!--this environment applies to artworks that do not require browser plugins; represents the default FF browser-->        
+    <premis:environmentDesignation>
+        <premis:environmentName>
+            Firefox/"No Browser Plug-ins"
+        </premis:environmentName>
+        <premis:environmentVersion>
+            <!--Artworks were tested in Mozilla Firefox versions 42-47 running in OS 10.6-10.10 -->
+        </premis:environmentVersion>
+        <premis:environmentOrigin>
+            Mozilla
+        </premis:environmentOrigin>
+        <premis:environmentDesignationNote/>                            
+    </premis:environmentDesignation>
+    <premis:environmentExtension>
+        <premis:relatedEnvironmentCharacteristic>
+            known to work
+        </premis:relatedEnvironmentCharacteristic>
+    </premis:environmentExtension>
+</premis:object>    
+
+</premis:premis>
