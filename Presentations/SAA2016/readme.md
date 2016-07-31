@@ -13,10 +13,13 @@ Wget runs in the command line provides many options for scoping crawls of websit
 
 Wget is very well-documented online; some of the most helpful sites I discovered were: 
 
+[wget refs here]
+
 ### webrecorder
 
 Webrecorder allowed us to explore the artworks visually, browsing the site as a user while also capturing pages as we went. This process is very time-consuming, however. For many sites, the overall number of pages makes this method impossible.  
 
+[webrec links here]
 
 ### pywb
 Pywb is a suite of tools for building collections of captured WARC files, and replaying the captured web content inside the collections. 
